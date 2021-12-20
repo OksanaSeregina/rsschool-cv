@@ -7,6 +7,7 @@
 - seregina.oksana.1987@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/aksana-siarohina-0264a3206?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSIs1y%2FpWQneu9Lf6MNIQ5Q%3D%3D)
 - [Skype](https://join.skype.com/invite/z3sI2Z945neM)
+- [GitHub](https://github.com/OksanaSeregina)
 
 ## **SUMMARY**
 
