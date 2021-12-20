@@ -26,7 +26,7 @@ I have the ability to work in multitasking mode and high analytical skills allow
 - **JSON**
 - **AJAX**
 
-## **CODE EXAMPLES**
+## **CODE EXAMPLE**
 
 ```
 function sumTriangularNumbers(n) {
@@ -37,3 +37,12 @@ function sumTriangularNumbers(n) {
   return sum;
 }
 ```
+
+## **EXPERIENCE**
+
+**IT Academy**, Apprenticeship.  
+SINCE APRIL 2021  
+Educational project: Online Watch Store.  
+It was created: Main page, Product page, Order cart, Order page.  
+Applied functionality: uploading the product information from the local server, carousel(implemented with Bootstrap), adding/removing an item in the cart, order form with validation, storing and receiving data from LocalStorage, sending order information to a local server.  
+[MATOA_PROJECT](https://github.com/OksanaSeregina/MATOA_PROJECT)
