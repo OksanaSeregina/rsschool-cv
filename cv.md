@@ -46,3 +46,35 @@ Educational project: Online Watch Store.
 It was created: Main page, Product page, Order cart, Order page.  
 Applied functionality: uploading the product information from the local server, carousel(implemented with Bootstrap), adding/removing an item in the cart, order form with validation, storing and receiving data from LocalStorage, sending order information to a local server.  
 [MATOA_PROJECT](https://github.com/OksanaSeregina/MATOA_PROJECT)
+
+## **EDUCATION**
+
+**_IT Academy, Web application development with JavaScript_**  
+AUGUST 2021 – NOVEMBER 2021  
+The following topics were studied on the course:
+
+- Closures
+- OOP. Description of the classes
+- Prototype inheritance
+- 'this' keyword
+- Event loop
+- Events. Event handling
+- ES6/ES7/ES8 features (let / const, arrow functions, spread (...) operator, destructuring, promises, generators, class syntax, Map / Set, fetch, async/await, etc.)  
+  [Certificate](<https://github.com/OksanaSeregina/Certificates/blob/main/IT-Academy(JAVASCRIPT)_2021.pdf>)
+
+**_IT Academy, Website development with HTML, CSS._**  
+APRIL 2021 – JULY 2021  
+The following topics were studied on the course:
+
+- Learning HTML, CSS
+- Flexbox model
+- Grid model
+- Working with forms
+- Bootstrap framework
+- Animating elements
+- Media queries. Responsive layout
+- Hierarchical selectors. Cascading. Visibility display  
+  [Certificate](<https://github.com/OksanaSeregina/Certificates/blob/main/IT-Academy(HTML%2C%20CSS)_2021.pdf>)
+
+**_Minsk college of Business, Banking. Economist._**  
+SEPTEMBER 2013 – JULY 2016
