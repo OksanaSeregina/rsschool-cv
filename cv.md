@@ -78,3 +78,7 @@ The following topics were studied on the course:
 
 **_Minsk college of Business, Banking. Economist._**  
 SEPTEMBER 2013 – JULY 2016
+
+## **LANGUAGE**
+
+**English** - A2
