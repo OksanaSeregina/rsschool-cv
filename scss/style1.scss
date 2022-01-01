@@ -65,6 +65,45 @@ body {
         letter-spacing: 4px;
         font-weight: normal;
       }
+      .nav-link:hover {
+        color: #ffd6d2;
+      }
     }
+  }
+}
+
+.main {
+  display: flex;
+  .aside {
+    width: 40%;
+    text-align: center;
+    color: #505050;
+    img {
+      margin: 20px 0;
+      width: 200px;
+      height: 200px;
+      max-width: 100%;
+      object-fit: cover;
+      border: 15px solid #ffd6d2;
+      border-radius: 50%;
+    }
+    .name {
+      font-family: "Bebas Neue", cursive;
+      font-size: 55px;
+      line-height: 65px;
+      letter-spacing: 7px;
+      font-weight: 500;
+    }
+    .devel {
+      margin-top: 10px;
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      line-height: 40px;
+    }
+  }
+  div {
+    width: 60%;
   }
 }
