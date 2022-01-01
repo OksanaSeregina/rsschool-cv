@@ -89,8 +89,8 @@ body {
     }
     .name {
       font-family: "Bebas Neue", cursive;
-      font-size: 55px;
-      line-height: 65px;
+      font-size: 45px;
+      line-height: 55px;
       letter-spacing: 7px;
       font-weight: 500;
     }
@@ -102,8 +102,46 @@ body {
       letter-spacing: 2px;
       line-height: 40px;
     }
+    .basic-info {
+      background-color: #ffd6d2;
+      margin-top: 60px;
+      padding-top: 50px;
+      padding-left: 25px;
+      position: relative;
+      .title {
+        font-family: "Bebas Neue", cursive;
+        color: #ffffff;
+        padding: 5px 15px;
+        background-color: #505050;
+        width: 100px;
+        margin: 0 auto;
+        font-size: 24px;
+        letter-spacing: 3px;
+        line-height: 36px;
+        position: absolute;
+        right: 153px;
+        top: -22px;
+      }
+      .contacts {
+        li {
+          text-align: start;
+          margin-bottom: 10px;
+          a {
+            text-decoration: none;
+            color: #505050;
+            font-size: 35px;
+            span {
+              margin-left: 10px;
+              font-family: "Poppins", sans-serif;
+              font-size: 20px;
+              vertical-align: middle;
+            }
+          }
+        }
+      }
+    }
   }
-  div {
+  .right-content {
     width: 60%;
   }
 }
