@@ -105,24 +105,20 @@ body {
     .basic-info {
       background-color: #ffd6d2;
       margin-top: 60px;
-      padding-top: 50px;
       padding-left: 25px;
-      position: relative;
       .title {
         font-family: "Bebas Neue", cursive;
         color: #ffffff;
         padding: 5px 15px;
         background-color: #505050;
-        width: 100px;
+        width: 120px;
         margin: 0 auto;
         font-size: 24px;
         letter-spacing: 3px;
         line-height: 36px;
-        position: absolute;
-        right: 153px;
-        top: -22px;
       }
       .contacts {
+        margin-bottom: 30px;
         li {
           text-align: start;
           margin-bottom: 10px;
@@ -136,6 +132,28 @@ body {
               font-size: 20px;
               vertical-align: middle;
             }
+          }
+        }
+      }
+      .list {
+        list-style: inside;
+        text-align: start;
+        margin: 20px 0 30px 0;
+        li {
+          font-family: "Poppins", sans-serif;
+          font-size: 20px;
+          margin-bottom: 10px;
+        }
+        .lang {
+          text-transform: uppercase;
+          font-weight: 600;
+          font-size: 24px;
+          p {
+            text-transform: none;
+            font-weight: normal;
+            font-size: 18px;
+            margin-left: 2rem;
+            margin-top: 5px;
           }
         }
       }
