@@ -80,10 +80,15 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .main .aside {
-  width: 40%;
+  width: 38%;
   text-align: center;
   color: #505050;
 }
@@ -120,6 +125,7 @@ body {
   background-color: #ffd6d2;
   margin-top: 60px;
   padding-left: 25px;
+  height: 100%;
 }
 
 .main .aside .basic-info .title {
@@ -183,9 +189,8 @@ body {
 }
 
 .main .right-content {
-  width: 60%;
+  width: 58%;
   margin-top: 20px;
-  padding-left: 25px;
   color: #777777;
 }
 
@@ -228,5 +233,34 @@ body {
   font-size: 18px;
   line-height: 30px;
   margin-left: 20px;
+}
+
+.main .code {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.main .code .title-code {
+  font-family: "Bebas Neue", cursive;
+  font-size: 24px;
+  letter-spacing: 3px;
+  line-height: 36px;
+  color: #505050;
+  margin-top: 40px;
+}
+
+.main .code hr {
+  height: 2px;
+  margin-top: 0;
+}
+
+.main .code pre {
+  background-color: #ffffff;
+}
+
+.main .code pre code {
+  color: #777777;
+  font-size: 20px;
+  line-height: 32px;
 }
 /*# sourceMappingURL=style1.css.map */
