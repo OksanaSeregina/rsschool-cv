@@ -48,11 +48,11 @@ body {
   margin: 0 auto;
 }
 
-.header {
+header {
   background-color: #505050;
 }
 
-.header .nav-list {
+header .nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -62,7 +62,7 @@ body {
   padding: 25px 0;
 }
 
-.header .nav-list .nav-item .nav-link {
+header .nav-list .nav-item .nav-link {
   font-family: "Bebas Neue", cursive;
   text-decoration: none;
   color: #ffffff;
@@ -72,7 +72,7 @@ body {
   font-weight: normal;
 }
 
-.header .nav-list .nav-item .nav-link:hover {
+header .nav-list .nav-item .nav-link:hover {
   color: #ffd6d2;
 }
 
@@ -125,7 +125,6 @@ body {
   background-color: #ffd6d2;
   margin-top: 60px;
   padding-left: 25px;
-  height: 100%;
 }
 
 .main .aside .basic-info .title {
@@ -262,5 +261,44 @@ body {
   color: #777777;
   font-size: 20px;
   line-height: 32px;
+}
+
+footer {
+  background-color: #505050;
+}
+
+footer .link-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0;
+}
+
+footer .link-footer .link-github {
+  color: #ffffff;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+footer .link-footer .year {
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+
+footer .link-footer span {
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  vertical-align: middle;
+  margin-left: 20px;
 }
 /*# sourceMappingURL=style1.css.map */
