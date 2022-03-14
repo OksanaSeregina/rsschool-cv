@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="icon" href="assets/img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/all.css" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./scss/style1.css" />
+  </head>
+  <body class="wrapper">
+    <header>
+      <nav class="nav center">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#contacts" class="nav-link">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a href="#summary" class="nav-link">Summary</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#code" class="nav-link">Code example</a>
+          </li>
+          <li class="nav-item">
+            <a href="#experience" class="nav-link">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#education" class="nav-link">Education</a>
+          </li>
+          <li class="nav-item">
+            <a href="#language" class="nav-link">Language</a>
+          </li>
+        </ul>
+
+        <span id="burger">
+          <i></i>
+          <i></i>
+          <i></i>
+        </span>
+        <span id="close">&#10005;</span>
+      </nav>
+    </header>
+    <main class="main center">
+      <aside class="aside">
+        <img src="./assets/img/photo.jpg" alt="photo" />
+        <h1 class="name">AKSANA SIAROHINA</h1>
+        <h3 class="devel">Front-end Developer</h3>
+        <div class="basic-info">
+          <h2 class="title" style="transform: translate(0, -50%)" id="contacts">
+            Contacts
+          </h2>
+          <ul class="contacts">
+            <li>
+              <a href="#" style="cursor: text"
+                ><i class="fas fa-city"></i><span>Minsk</span></a
+              >
+            </li>
+            <li>
+              <a href="tel:+375297626463"
+                ><i class="fas fa-phone-square-alt"></i
+                ><span>+375 29 762-64-63</span></a
+              >
+            </li>
+            <li>
+              <a href="mailto:seregina.oksana.1987@gmail.com"
+                ><i class="fas fa-envelope-square"></i
+                ><span>seregina.oksana.1987@gmail.com</span></a
+              >
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/aksana-siarohina-0264a3206/"
+                ><i class="fab fa-linkedin"></i><span>LinkedIn</span></a
+              >
+            </li>
+            <li>
+              <a href="https://join.skype.com/invite/z3sI2Z945neM"
+                ><i class="fab fa-skype"></i><span>Skype</span></a
+              >
+            </li>
+          </ul>
+          <h2 class="title" id="skills">Skills</h2>
+          <ul class="list">
+            <li>HTML5, CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive layout</li>
+            <li>Sass</li>
+            <li>Bootstrap</li>
+            <li>Figma, PhotoShop</li>
+            <li>Git</li>
+            <li>JSON</li>
+            <li>AJAX</li>
+          </ul>
+          <h2 class="title" id="language">Language</h2>
+          <ul class="list">
+            <li class="lang">
+              English
+              <p>Pre-Intermediate</p>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <div class="right-content">
+        <section class="summary" id="summary">
+          <h2 class="title-right">Summary</h2>
+          <hr />
+          <p class="description">
+            I like the front-end because this is the future. I like the visual
+            part of the work. And you can clearly see the result of your work in
+            the frontend.
+          </p>
+          <p class="description">
+            I have the ability to work in multitasking mode and high analytical
+            skills allow me to work effectively with large amounts of
+            information, quickly find high-quality solutions to complex
+            problems. I quickly find common ground with the new team.
+          </p>
+        </section>
+        <section class="experience" id="experience">
+          <h2 class="title-right">Experience</h2>
+          <hr />
+          <p class="description">
+            <span class="descr-bold">IT Academy</span>, Apprenticeship.
+          </p>
+          <p class="description">SINCE APRIL 2021</p>
+          <p class="description">Educational project: Online Watch Store.</p>
+          <p class="description">
+            It was created: Main page, Product page, Order cart, Order page.
+            Applied functionality: uploading the product information from the
+            local server, carousel(implemented with Bootstrap), adding/removing
+            an item in the cart, order form with validation, storing and
+            receiving data from LocalStorage, sending order information to a
+            local server.
+            <a
+              href="https://github.com/OksanaSeregina/MATOA_PROJECT"
+              target="_blank"
+              >MATOA_PROJECT</a
+            >
+          </p>
+        </section>
+        <section class="education" id="education">
+          <h2 class="title-right">Education</h2>
+          <hr />
+          <p class="description">
+            <span class="descr-italic"
+              >IT Academy, Web application development with JavaScript</span
+            >
+          </p>
+          <p class="description">AUGUST 2021 – NOVEMBER 2021</p>
+          <p class="description">
+            The following topics were studied on the course:
+          </p>
+          <ul class="list-descr">
+            <li>Closures</li>
+            <li>OOP. Description of the classes</li>
+            <li>Prototype inheritance</li>
+            <li>‘this’ keyword</li>
+            <li>Event loop</li>
+            <li>Events. Event handling</li>
+            <li>
+              ES6/ES7/ES8 features (let / const, arrow functions, spread (…)
+              operator, destructuring, promises, generators, class syntax, Map /
+              Set, fetch, async/await, etc.)
+            </li>
+          </ul>
+          <p class="description">
+            <a
+              href="https://github.com/OksanaSeregina/Certificates/blob/main/IT-Academy(JAVASCRIPT)_2021.pdf"
+              target="_blank"
+              >Certificate</a
+            >
+          </p>
+
+          <p class="description" style="margin-top: 30px">
+            <span class="descr-italic"
+              >IT Academy, Website development with HTML, CSS</span
+            >
+          </p>
+          <p class="description">APRIL 2021 – JULY 2021</p>
+          <p class="description">
+            The following topics were studied on the course:
+          </p>
+          <ul class="list-descr">
+            <li>Learning HTML, CSS</li>
+            <li>Flexbox model</li>
+            <li>Grid model</li>
+            <li>Working with forms</li>
+            <li>Bootstrap framework</li>
+            <li>Animating elements</li>
+            <li>Media queries. Responsive layout</li>
+            <li>Hierarchical selectors. Cascading. Visibility display</li>
+          </ul>
+          <p class="description">
+            <a
+              href="https://github.com/OksanaSeregina/Certificates/blob/main/IT-Academy(HTML%2C%20CSS)_2021.pdf"
+              target="_blank"
+              >Certificate</a
+            >
+          </p>
+        </section>
+      </div>
+      <section class="code" id="code">
+        <h2 class="title-code">Code example</h2>
+        <hr />
+        <pre>
+        <code>
+  function sumTriangularNumbers(n) {
+    let sum = 0;
+    for (let i = 1; i &lt;= n; i++) {
+      sum += (i * (i + 1)) / 2;
+    }
+    return sum;
+  }
+        </code>
+      </pre>
+      </section>
+    </main>
+
+    <footer>
+      <div class="link-footer center">
+        <a
+          class="link-github"
+          href="https://github.com/OksanaSeregina"
+          target="_blank"
+          ><i class="fab fa-github"></i><span>My GitHub</span></a
+        >
+        <p class="year">2022</p>
+        <a href="https://rs.school/js/" target="_blank"
+          ><img
+            src="./assets/svg/rsschool.svg"
+            alt="logo"
+            style="width: 150px; height: 50px"
+        /></a>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
